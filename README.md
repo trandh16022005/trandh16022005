@@ -57,7 +57,7 @@
 
 ### 💻 Languages
 
-<img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,cs&perline=7" />
+<img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,lua,cs&perline=7" />
 
 <br><br>
 
