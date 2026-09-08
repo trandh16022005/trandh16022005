@@ -161,41 +161,41 @@
 
   <!-- ORBIT 1: 10 Core Languages (Radius: 130px around 480,430) -->
   <g class="ring-1">
-    <g transform="translate(610, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=cpp" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(585, 506)"><g class="node"><image href="https://skillicons.dev/icons?i=java" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(520, 553)"><g class="node"><image href="https://skillicons.dev/icons?i=py" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(440, 553)"><g class="node"><image href="https://skillicons.dev/icons?i=js" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(375, 506)"><g class="node"><image href="https://skillicons.dev/icons?i=ts" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(350, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=kt" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(375, 354)"><g class="node"><image href="https://skillicons.dev/icons?i=lua" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(440, 307)"><g class="node"><image href="https://skillicons.dev/icons?i=cs" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(520, 307)"><g class="node"><image href="https://skillicons.dev/icons?i=html" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(585, 354)"><g class="node"><image href="https://skillicons.dev/icons?i=css" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(610, 430)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=cpp" href="https://skillicons.dev/icons?i=cpp" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(585, 506)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=java" href="https://skillicons.dev/icons?i=java" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(520, 553)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=py" href="https://skillicons.dev/icons?i=py" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(440, 553)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=js" href="https://skillicons.dev/icons?i=js" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(375, 506)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=ts" href="https://skillicons.dev/icons?i=ts" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(350, 430)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=kt" href="https://skillicons.dev/icons?i=kt" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(375, 354)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=lua" href="https://skillicons.dev/icons?i=lua" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(440, 307)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=cs" href="https://skillicons.dev/icons?i=cs" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(520, 307)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=html" href="https://skillicons.dev/icons?i=html" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(585, 354)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=css" href="https://skillicons.dev/icons?i=css" x="-18" y="-18" width="36" height="36"/></g></g>
   </g>
 
   <!-- ORBIT 2: 10 Frameworks &amp; Game Engine (Radius: 220px around 480,430) -->
   <g class="ring-2">
-    <g transform="translate(700, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=react" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(658, 559)"><g class="node"><image href="https://skillicons.dev/icons?i=nextjs" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(548, 639)"><g class="node"><image href="https://skillicons.dev/icons?i=nodejs" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(412, 639)"><g class="node"><image href="https://skillicons.dev/icons?i=express" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(302, 559)"><g class="node"><image href="https://skillicons.dev/icons?i=spring" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(260, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=androidstudio" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(302, 301)"><g class="node"><image href="https://skillicons.dev/icons?i=godot" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(700, 430)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=react" href="https://skillicons.dev/icons?i=react" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(658, 559)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=nextjs" href="https://skillicons.dev/icons?i=nextjs" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(548, 639)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=nodejs" href="https://skillicons.dev/icons?i=nodejs" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(412, 639)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=express" href="https://skillicons.dev/icons?i=express" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(302, 559)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=spring" href="https://skillicons.dev/icons?i=spring" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(260, 430)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=androidstudio" href="https://skillicons.dev/icons?i=androidstudio" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(302, 301)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=godot" href="https://skillicons.dev/icons?i=godot" x="-18" y="-18" width="36" height="36"/></g></g>
     <g transform="translate(412, 221)"><g class="node"><use href="#cyber-base"/><use href="#icon-sfml"/></g></g>
-    <g transform="translate(548, 221)"><g class="node"><image href="https://skillicons.dev/icons?i=postgres" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(658, 301)"><g class="node"><image href="https://skillicons.dev/icons?i=mysql" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(548, 221)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=postgres" href="https://skillicons.dev/icons?i=postgres" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(658, 301)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=mysql" href="https://skillicons.dev/icons?i=mysql" x="-18" y="-18" width="36" height="36"/></g></g>
   </g>
 
   <!-- ORBIT 3: 11 Databases, DevOps &amp; Cyber Security (Radius: 310px around 480,430) -->
   <g class="ring-3">
-    <g transform="translate(790, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=mongodb" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(741, 598)"><g class="node"><image href="https://skillicons.dev/icons?i=redis" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(608, 712)"><g class="node"><image href="https://skillicons.dev/icons?i=docker" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(436, 737)"><g class="node"><image href="https://skillicons.dev/icons?i=elasticsearch" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(790, 430)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=mongodb" href="https://skillicons.dev/icons?i=mongodb" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(741, 598)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=redis" href="https://skillicons.dev/icons?i=redis" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(608, 712)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=docker" href="https://skillicons.dev/icons?i=docker" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(436, 737)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=elasticsearch" href="https://skillicons.dev/icons?i=elasticsearch" x="-18" y="-18" width="36" height="36"/></g></g>
     <g transform="translate(277, 664)"><g class="node"><use href="#cyber-base"/><use href="#icon-minio"/></g></g>
-    <g transform="translate(182, 517)"><g class="node"><image href="https://skillicons.dev/icons?i=linux" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(182, 343)"><g class="node"><image href="https://skillicons.dev/icons?i=bash" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(182, 517)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=linux" href="https://skillicons.dev/icons?i=linux" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(182, 343)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=bash" href="https://skillicons.dev/icons?i=bash" x="-18" y="-18" width="36" height="36"/></g></g>
     <g transform="translate(277, 196)"><g class="node"><use href="#cyber-base"/><use href="#icon-burp"/></g></g>
     <g transform="translate(436, 123)"><g class="node"><use href="#cyber-base"/><use href="#icon-wireshark"/></g></g>
     <g transform="translate(608, 148)"><g class="node"><use href="#cyber-base"/><use href="#icon-thm"/></g></g>
@@ -204,17 +204,17 @@
 
   <!-- ORBIT 4: 12 Tools, Networking &amp; IDEs (Radius: 395px around 480,430) -->
   <g class="ring-4">
-    <g transform="translate(875, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=git" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(822, 628)"><g class="node"><image href="https://skillicons.dev/icons?i=github" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(678, 772)"><g class="node"><image href="https://skillicons.dev/icons?i=vscode" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(480, 825)"><g class="node"><image href="https://skillicons.dev/icons?i=visualstudio" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(283, 772)"><g class="node"><image href="https://skillicons.dev/icons?i=eclipse" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(138, 628)"><g class="node"><image href="https://skillicons.dev/icons?i=idea" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(875, 430)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=git" href="https://skillicons.dev/icons?i=git" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(822, 628)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=github" href="https://skillicons.dev/icons?i=github" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(678, 772)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=vscode" href="https://skillicons.dev/icons?i=vscode" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(480, 825)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=visualstudio" href="https://skillicons.dev/icons?i=visualstudio" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(283, 772)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=eclipse" href="https://skillicons.dev/icons?i=eclipse" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(138, 628)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=idea" href="https://skillicons.dev/icons?i=idea" x="-18" y="-18" width="36" height="36"/></g></g>
     <g transform="translate(85, 430)"><g class="node"><use href="#cyber-base"/><use href="#icon-packettracer"/></g></g>
-    <g transform="translate(138, 232)"><g class="node"><image href="https://skillicons.dev/icons?i=cisco" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(283, 88)"><g class="node"><image href="https://skillicons.dev/icons?i=anaconda" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(138, 232)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=cisco" href="https://skillicons.dev/icons?i=cisco" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(283, 88)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=anaconda" href="https://skillicons.dev/icons?i=anaconda" x="-18" y="-18" width="36" height="36"/></g></g>
     <g transform="translate(480, 35)"><g class="node"><use href="#cyber-base"/><use href="#icon-devcpp"/></g></g>
-    <g transform="translate(678, 88)"><g class="node"><image href="https://skillicons.dev/icons?i=cpp" x="-18" y="-18" width="36" height="36"/></g></g>
-    <g transform="translate(822, 232)"><g class="node"><image href="https://skillicons.dev/icons?i=java" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(678, 88)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=cpp" href="https://skillicons.dev/icons?i=cpp" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(822, 232)"><g class="node"><image xlink:href="https://skillicons.dev/icons?i=java" href="https://skillicons.dev/icons?i=java" x="-18" y="-18" width="36" height="36"/></g></g>
   </g>
 </svg>
