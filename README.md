@@ -1,8 +1,8 @@
 <div align="center">
 
-# 👋 Hi, I'm trandh1602
+<h1>👋 Hi, I'm trandh1602</h1>
 
-### 🛡️ Information Security Student
+<h3>🛡️ Information Security Student</h3>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=750&lines=Information+Security+Student;Cyber+Security+%7C+Network+Security;Software+Development+%7C+Linux;Learning+%26+Building+Every+Day" alt="Typing SVG" />
 
@@ -42,14 +42,16 @@
 <div align="center">
 
 **Cyber Security** · **Network Security** · **Web Security**
+
 **Computer Networks** · **Linux** · **Security Engineering**
+
 **CTF** · **Packet Analysis** · **System Administration**
 
 </div>
 
 ---
 
-# 💻 Languages
+## 💻 Languages
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,cs" />
@@ -57,7 +59,7 @@
 
 ---
 
-# 🌐 Frameworks & Technologies
+## 🌐 Frameworks & Technologies
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,spring,androidstudio,godot" />
@@ -65,15 +67,17 @@
 
 <div align="center">
 
-`React` · `Next.js` · `Node.js` · `Express.js` · `Spring Boot` · `Spring Cloud`
+`React` · `Next.js` · `Node.js` · `Express.js`
 
-`Android` · `Kotlin` · `Retrofit` · `Room` · `Godot` · `SFML`
+`Spring Boot` · `Spring Cloud`
+
+`Android` · `Retrofit` · `Room` · `Godot` · `SFML`
 
 </div>
 
 ---
 
-# 🗄️ Database & Storage
+## 🗄️ Database & Storage
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" />
@@ -81,13 +85,15 @@
 
 <div align="center">
 
-`PostgreSQL` · `MySQL` · `MongoDB` · `Redis` · `Elasticsearch` · `MinIO`
+`PostgreSQL` · `MySQL` · `MongoDB` · `Redis`
+
+`Elasticsearch` · `MinIO`
 
 </div>
 
 ---
 
-# 🔐 Cyber Security
+## 🔐 Cyber Security
 
 <div align="center">
 
@@ -107,7 +113,7 @@
 
 ---
 
-# 🌐 Networking
+## 🌐 Networking
 
 <div align="center">
 
@@ -123,66 +129,15 @@
 
 ---
 
-# ⚙️ Tools
+## ⚙️ Tools & Environment
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,eclipse,postman,docker,linux" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,eclipse,postman,docker,linux,anaconda" />
 </p>
 
 ---
 
-# 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=trandh16022005&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trandh16022005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
----
-
-# 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=trandh16022005&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="95%" />
-
-</div>
-
----
-
-# 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/trandh16022005/MotorcycleShopMVC">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=MotorcycleShopMVC&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/trandh16022005/Josephus-PBL1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=Josephus-PBL1&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/trandh16022005/DormitoryManagement">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=DormitoryManagement&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/trandh16022005/HoiAnHeritage">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=HoiAnHeritage&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/trandh16022005/chess-boss-prototype">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=chess-boss-prototype&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
-
----
-
-# 📚 Currently Learning
+## 📚 Currently Learning
 
 <div align="center">
 
@@ -196,14 +151,18 @@
 
 ---
 
-# 🎯 Career Direction
+## 🎯 Career Direction
 
 <div align="center">
 
 **Information Security**
+
 ↓
+
 **Cyber Security · Network Security · Web Security**
+
 ↓
+
 **Security Engineering**
 
 </div>
@@ -212,7 +171,7 @@
 
 <div align="center">
 
-### 🛡️ Learn · Build · Secure
+<h3>🛡️ Learn · Build · Secure</h3>
 
 ⭐ Thanks for visiting my profile!
 
