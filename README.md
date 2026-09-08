@@ -53,7 +53,7 @@
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=cpp,java,py,js,ts,kotlin,lua,cs,html,css,react,nextjs,nodejs,express,spring,android,godot,postgres,mysql,mongodb,redis,docker,elasticsearch,linux,bash,git,github,vscode,visualstudio,eclipse,idea,anaconda,discord,windows&perline=11)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=cpp,java,py,js,ts,kotlin,lua,cs,html,css,react,nextjs,nodejs,express,spring,powershell,godot,postgres,mysql,mongodb,redis,docker,elasticsearch,linux,bash,git,github,vscode,visualstudio,eclipse,idea,anaconda,discord&perline=11)](https://skillicons.dev)
 
 </div>
 
