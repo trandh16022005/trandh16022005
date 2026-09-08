@@ -1,589 +1,220 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 800" width="100%" height="100%">
-  <title>Tech Stack Cloud - trandh16022005</title>
-  <desc>Cybersecurity Tech Stack Orbit Cloud for Information Security Student</desc>
-
-  <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="65%">
-      <stop offset="0%" stop-color="#041208"/>
-      <stop offset="60%" stop-color="#020804"/>
-      <stop offset="100%" stop-color="#000301"/>
-    </radialGradient>
-
-    <!-- Glowing Cyber Circle Filter -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <filter id="centerGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <!-- Clip Path for Circular Badge Icons -->
-    <clipPath id="badgeClip">
-      <circle cx="0" cy="0" r="22" />
-    </clipPath>
-
-    <!-- ========================================== -->
-    <!-- EMBEDDED VECTOR SYMBOLS (NO EXTERNAL DATA) -->
-    <!-- ========================================== -->
-    
-    <!-- C++ -->
-    <g id="icon-cpp">
-      <circle cx="0" cy="0" r="20" fill="#00599C"/>
-      <text x="-12" y="6" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="14">C++</text>
-    </g>
-
-    <!-- Java -->
-    <g id="icon-java">
-      <circle cx="0" cy="0" r="20" fill="#1E1E1E"/>
-      <path d="M-6,8 C-6,8 -2,10 3,8 C7,6 8,4 8,4 C8,4 5,5 3,5 C-2,5 -6,8 -6,8 Z" fill="#E76F00"/>
-      <path d="M-4,3 C-4,3 0,5 5,3 C8,2 9,0 9,0 C9,0 6,1 3,1 C-1,1 -4,3 -4,3 Z" fill="#5382A1"/>
-      <path d="M1,-6 C1,-6 4,-3 -1,2 C-4,5 -1,8 2,10 C1,10 -2,7 -2,5 C-2,2 4,-2 1,-6 Z" fill="#E76F00"/>
-    </g>
-
-    <!-- Python -->
-    <g id="icon-python">
-      <circle cx="0" cy="0" r="20" fill="#1E293B"/>
-      <path d="M-1,-14 C-7,-14 -12,-11 -12,-6 L-12,-2 L-4,-2 L-4,0 L-12,0 L-12,5 C-12,10 -7,12 -2,12 L1,12 L1,8 L-2,8 C-5,8 -7,7 -7,4 L-7,2 L4,2 L4,-6 C4,-11 -1,-14 -1,-14 Z M-6,-10 A 1.5 1.5 0 0 1 -4.5,-8.5 A 1.5 1.5 0 0 1 -6,-7 A 1.5 1.5 0 0 1 -7.5,-8.5 A 1.5 1.5 0 0 1 -6,-10 Z" fill="#3776AB"/>
-      <path d="M1,14 C7,14 12,11 12,6 L12,2 L4,2 L4,0 L12,0 L12,-5 C12,-10 7,-12 2,-12 L-1,-12 L-1,-8 L2,-8 C5,-8 7,-7 7,-4 L7,-2 L-4,-2 L-4,6 C-4,11 1,14 1,14 Z M6,10 A 1.5 1.5 0 0 1 4.5,8.5 A 1.5 1.5 0 0 1 6,7 A 1.5 1.5 0 0 1 7.5,8.5 A 1.5 1.5 0 0 1 6,10 Z" fill="#FFD43B"/>
-    </g>
-
-    <!-- JavaScript -->
-    <g id="icon-js">
-      <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#F7DF1E"/>
-      <text x="0" y="10" fill="#000000" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">JS</text>
-    </g>
-
-    <!-- TypeScript -->
-    <g id="icon-ts">
-      <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#3178C6"/>
-      <text x="0" y="10" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">TS</text>
-    </g>
-
-    <!-- Kotlin -->
-    <g id="icon-kotlin">
-      <circle cx="0" cy="0" r="20" fill="#1B1B1B"/>
-      <polygon points="-12,-12 12,-12 0,0 12,12 -12,12" fill="#7F52FF"/>
-    </g>
-
-    <!-- Lua -->
-    <g id="icon-lua">
-      <circle cx="0" cy="0" r="20" fill="#000080"/>
-      <circle cx="-2" cy="2" r="10" fill="#FFFFFF"/>
-      <circle cx="8" cy="-8" r="3" fill="#5555FF"/>
-    </g>
-
-    <!-- C# -->
-    <g id="icon-csharp">
-      <circle cx="0" cy="0" r="20" fill="#239120"/>
-      <text x="-14" y="6" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="15">C#</text>
-    </g>
-
-    <!-- HTML5 -->
-    <g id="icon-html">
-      <circle cx="0" cy="0" r="20" fill="#E34F26"/>
-      <text x="-14" y="6" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="14">H5</text>
-    </g>
-
-    <!-- CSS3 -->
-    <g id="icon-css">
-      <circle cx="0" cy="0" r="20" fill="#1572B6"/>
-      <text x="-13" y="6" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="14">C3</text>
-    </g>
-
-    <!-- React -->
-    <g id="icon-react">
-      <circle cx="0" cy="0" r="20" fill="#20232A"/>
-      <ellipse cx="0" cy="0" rx="14" ry="5" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(0)"/>
-      <ellipse cx="0" cy="0" rx="14" ry="5" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(60)"/>
-      <ellipse cx="0" cy="0" rx="14" ry="5" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(120)"/>
-      <circle cx="0" cy="0" r="2.5" fill="#61DAFB"/>
-    </g>
-
-    <!-- Next.js -->
-    <g id="icon-nextjs">
-      <circle cx="0" cy="0" r="20" fill="#000000" stroke="#111111" stroke-width="1"/>
-      <text x="0" y="6" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="16" text-anchor="middle">N</text>
-    </g>
-
-    <!-- Node.js -->
-    <g id="icon-nodejs">
-      <circle cx="0" cy="0" r="20" fill="#333333"/>
-      <path d="M0,-12 L11,-6 L11,6 L0,12 L-11,6 L-11,-6 Z" fill="#339933"/>
-      <text x="0" y="4" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">node</text>
-    </g>
-
-    <!-- Express -->
-    <g id="icon-express">
-      <circle cx="0" cy="0" r="20" fill="#252525"/>
-      <text x="0" y="4" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="9" text-anchor="middle">express</text>
-    </g>
-
-    <!-- Spring -->
-    <g id="icon-spring">
-      <circle cx="0" cy="0" r="20" fill="#1B1B1B"/>
-      <path d="M-10,10 C-10,-10 10,-10 10,10 C0,12 -5,5 -10,10 Z" fill="#6DB33F"/>
-    </g>
-
-    <!-- Spring Cloud -->
-    <g id="icon-springcloud">
-      <circle cx="0" cy="0" r="20" fill="#0F172A"/>
-      <path d="M-8,4 A 5 5 0 0 1 -3,-2 A 7 7 0 0 1 8,0 A 5 5 0 0 1 7,7 L-8,7 Z" fill="#6DB33F"/>
-    </g>
-
-    <!-- Android -->
-    <g id="icon-android">
-      <circle cx="0" cy="0" r="20" fill="#000000"/>
-      <path d="M-10,2 A10,10 0 0,1 10,2 L-10,2 Z" fill="#3DDC84"/>
-      <circle cx="-4" cy="-3" r="1.5" fill="#FFFFFF"/>
-      <circle cx="4" cy="-3" r="1.5" fill="#FFFFFF"/>
-      <rect x="-10" y="4" width="20" height="8" rx="2" fill="#3DDC84"/>
-    </g>
-
-    <!-- Android Studio -->
-    <g id="icon-androidstudio">
-      <circle cx="0" cy="0" r="20" fill="#2D3748"/>
-      <circle cx="0" cy="0" r="12" fill="none" stroke="#3DDC84" stroke-width="2"/>
-      <polygon points="0,-8 6,6 -6,6" fill="#4285F4"/>
-    </g>
-
-    <!-- Godot -->
-    <g id="icon-godot">
-      <circle cx="0" cy="0" r="20" fill="#2C363F"/>
-      <rect x="-10" y="-8" width="20" height="16" rx="3" fill="#478CBF"/>
-      <circle cx="-4" cy="-2" r="2" fill="#FFFFFF"/>
-      <circle cx="4" cy="-2" r="2" fill="#FFFFFF"/>
-    </g>
-
-    <!-- SFML -->
-    <g id="icon-sfml">
-      <circle cx="0" cy="0" r="20" fill="#1E1E1E"/>
-      <text x="0" y="5" fill="#8CC63F" font-family="Arial, sans-serif" font-weight="bold" font-size="10" text-anchor="middle">SFML</text>
-    </g>
-
-    <!-- PostgreSQL -->
-    <g id="icon-postgres">
-      <circle cx="0" cy="0" r="20" fill="#336791"/>
-      <path d="M-8,-4 C-8,-10 8,-10 8,-4 C8,4 -2,8 -8,4 Z" fill="#FFFFFF" opacity="0.9"/>
-      <circle cx="-2" cy="-3" r="1.5" fill="#336791"/>
-    </g>
-
-    <!-- MySQL -->
-    <g id="icon-mysql">
-      <circle cx="0" cy="0" r="20" fill="#00758F"/>
-      <path d="M-10,6 C-6,-8 2,-4 8,0 C4,2 0,-2 -6,2 Z" fill="#F29111"/>
-    </g>
-
-    <!-- MongoDB -->
-    <g id="icon-mongodb">
-      <circle cx="0" cy="0" r="20" fill="#111827"/>
-      <path d="M0,-12 C3,-4 8,0 0,14 C-8,0 -3,-4 0,-12 Z" fill="#47A248"/>
-    </g>
-
-    <!-- Redis -->
-    <g id="icon-redis">
-      <circle cx="0" cy="0" r="20" fill="#DC382D"/>
-      <polygon points="0,-10 12,-3 0,4 -12,-3" fill="#FFFFFF" opacity="0.8"/>
-      <polygon points="0,-1 12,6 0,13 -12,6" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Docker -->
-    <g id="icon-docker">
-      <circle cx="0" cy="0" r="20" fill="#0db7ed"/>
-      <rect x="-10" y="-2" width="4" height="4" fill="#FFFFFF"/>
-      <rect x="-5" y="-2" width="4" height="4" fill="#FFFFFF"/>
-      <rect x="0" y="-2" width="4" height="4" fill="#FFFFFF"/>
-      <rect x="-5" y="-7" width="4" height="4" fill="#FFFFFF"/>
-      <path d="M-12,4 C-10,10 8,10 12,4 Z" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Elasticsearch -->
-    <g id="icon-elastic">
-      <circle cx="0" cy="0" r="20" fill="#1F2937"/>
-      <circle cx="0" cy="0" r="10" fill="#005571"/>
-      <path d="M-6,0 L6,0 M0,-6 L0,6" stroke="#FED100" stroke-width="3"/>
-    </g>
-
-    <!-- MinIO -->
-    <g id="icon-minio">
-      <circle cx="0" cy="0" r="20" fill="#C72C48"/>
-      <text x="0" y="4" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="9" text-anchor="middle">MINIO</text>
-    </g>
-
-    <!-- Linux -->
-    <g id="icon-linux">
-      <circle cx="0" cy="0" r="20" fill="#000000"/>
-      <ellipse cx="0" cy="1" rx="7" ry="9" fill="#FFFFFF"/>
-      <circle cx="-2" cy="-3" r="1" fill="#000"/>
-      <circle cx="2" cy="-3" r="1" fill="#000"/>
-      <polygon points="-3,0 3,0 0,3" fill="#FFA500"/>
-    </g>
-
-    <!-- Bash -->
-    <g id="icon-bash">
-      <circle cx="0" cy="0" r="20" fill="#2B3137"/>
-      <text x="-8" y="4" fill="#4EAA25" font-family="monospace" font-weight="bold" font-size="12">&gt;_</text>
-    </g>
-
-    <!-- Burp Suite -->
-    <g id="icon-burp">
-      <circle cx="0" cy="0" r="20" fill="#FF6600"/>
-      <path d="M-4,-10 L4,-10 L1,0 L6,0 L-4,11 L-1,2 L-6,2 Z" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Wireshark -->
-    <g id="icon-wireshark">
-      <circle cx="0" cy="0" r="20" fill="#1679A7"/>
-      <path d="M-12,8 C-4,8 0,-8 10,-8 C4,-2 0,10 -12,8 Z" fill="#FFFFFF"/>
-    </g>
-
-    <!-- TryHackMe -->
-    <g id="icon-thm">
-      <circle cx="0" cy="0" r="20" fill="#111827"/>
-      <path d="M-8,-6 L8,-6 L0,8 Z" fill="#A1A1AA"/>
-      <text x="0" y="1" fill="#22C55E" font-family="sans-serif" font-weight="bold" font-size="7" text-anchor="middle">THM</text>
-    </g>
-
-    <!-- GNS3 -->
-    <g id="icon-gns3">
-      <circle cx="0" cy="0" r="20" fill="#000000"/>
-      <path d="M-8,-2 C-8,-8 8,-8 8,-2 C8,4 0,2 0,8" fill="none" stroke="#2563EB" stroke-width="3"/>
-    </g>
-
-    <!-- Cisco -->
-    <g id="icon-cisco">
-      <circle cx="0" cy="0" r="20" fill="#049FD9"/>
-      <line x1="-8" y1="4" x2="-8" y2="-4" stroke="#FFF" stroke-width="2"/>
-      <line x1="-4" y1="6" x2="-4" y2="-6" stroke="#FFF" stroke-width="2"/>
-      <line x1="0" y1="8" x2="0" y2="-8" stroke="#FFF" stroke-width="2"/>
-      <line x1="4" y1="6" x2="4" y2="-6" stroke="#FFF" stroke-width="2"/>
-      <line x1="8" y1="4" x2="8" y2="-4" stroke="#FFF" stroke-width="2"/>
-    </g>
-
-    <!-- Cisco Packet Tracer -->
-    <g id="icon-packettracer">
-      <circle cx="0" cy="0" r="20" fill="#1E293B"/>
-      <circle cx="-6" cy="4" r="3" fill="#049FD9"/>
-      <circle cx="6" cy="4" r="3" fill="#049FD9"/>
-      <circle cx="0" cy="-6" r="3" fill="#049FD9"/>
-      <line x1="-6" y1="4" x2="0" y2="-6" stroke="#FFF" stroke-width="1"/>
-      <line x1="6" y1="4" x2="0" y2="-6" stroke="#FFF" stroke-width="1"/>
-    </g>
-
-    <!-- Git -->
-    <g id="icon-git">
-      <circle cx="0" cy="0" r="20" fill="#F05032"/>
-      <path d="M-6,2 L2,10 L10,2 L2,-6 Z" fill="#FFFFFF"/>
-      <circle cx="-1" cy="4" r="1.5" fill="#F05032"/>
-      <circle cx="4" cy="-1" r="1.5" fill="#F05032"/>
-    </g>
-
-    <!-- GitHub -->
-    <g id="icon-github">
-      <circle cx="0" cy="0" r="20" fill="#181717"/>
-      <path d="M0,-10 C-6,-10 -10,-6 -10,0 C-10,5 -7,9 -2,10 C-1,10 -1,9 -1,9 C-5,10 -6,7 -6,7 C-7,5 -8,5 -8,5 C-9,4 -8,4 -8,4 C-7,4 -6,6 -6,6 C-5,8 -3,7 -2,7 C-2,5 -1,4 0,4 C-4,4 -7,2 -7,-3 C-7,-4 -6,-6 -5,-7 C-5,-7 -6,-9 -5,-9 C-5,-9 -3,-9 0,-7 C2,-8 4,-8 6,-7 C9,-9 10,-9 10,-9 C10,-9 10,-7 10,-7 C11,-6 11,-4 11,-3 C11,2 8,4 4,4 C5,5 5,6 5,8 C5,9 5,10 5,10 C5,10 5,10 6,10 C11,9 14,5 14,0 C14,-6 10,-10 0,-10 Z" fill="#FFFFFF"/>
-    </g>
-
-    <!-- VS Code -->
-    <g id="icon-vscode">
-      <circle cx="0" cy="0" r="20" fill="#007ACC"/>
-      <path d="M-8,0 L-3,-6 L6,4 L10,1 L10,-1 L6,-4 L-3,6 Z" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Visual Studio -->
-    <g id="icon-visualstudio">
-      <circle cx="0" cy="0" r="20" fill="#5C2D91"/>
-      <path d="M-6,-4 L2,-8 L8,-4 L2,8 Z" fill="#FFFFFF" opacity="0.8"/>
-      <path d="M-6,4 L2,8 L8,4 L2,-8 Z" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Eclipse -->
-    <g id="icon-eclipse">
-      <circle cx="0" cy="0" r="20" fill="#2C2255"/>
-      <circle cx="0" cy="0" r="8" fill="#F8981D"/>
-      <circle cx="-3" cy="0" r="8" fill="#2C2255"/>
-    </g>
-
-    <!-- IntelliJ IDEA -->
-    <g id="icon-intellij">
-      <circle cx="0" cy="0" r="20" fill="#000000"/>
-      <rect x="-10" y="-10" width="20" height="20" rx="3" fill="url(#ijGrad)"/>
-      <linearGradient id="ijGrad" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#FE2857"/>
-        <stop offset="100%" stop-color="#6B57FF"/>
-      </linearGradient>
-      <text x="-6" y="4" fill="#FFF" font-family="sans-serif" font-weight="bold" font-size="10">IJ</text>
-    </g>
-
-    <!-- Anaconda -->
-    <g id="icon-anaconda">
-      <circle cx="0" cy="0" r="20" fill="#43B02A"/>
-      <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
-    </g>
-
-    <!-- Dev-C++ -->
-    <g id="icon-devcpp">
-      <circle cx="0" cy="0" r="20" fill="#00599C"/>
-      <text x="0" y="4" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" font-size="9" text-anchor="middle">DEV</text>
-    </g>
-
-    <!-- General Glowing Container for Each Tech Icon -->
-    <g id="cyber-node">
-      <circle cx="0" cy="0" r="25" fill="#031408" stroke="#00FF41" stroke-width="1.5" filter="url(#neonGlow)" opacity="0.9"/>
-      <circle cx="0" cy="0" r="22" fill="#081A0E"/>
-    </g>
-  </defs>
-
-  <!-- ========================================== -->
-  <!-- STYLES & ANIMATIONS (GITHUB COMPATIBLE)    -->
-  <!-- ========================================== -->
-  <style>
-    /* Background grid line styling */
-    .net-line { stroke: #00FF41; stroke-opacity: 0.12; stroke-dasharray: 4, 4; fill: none; }
-    .orbit-path { stroke: #00FF41; stroke-opacity: 0.2; fill: none; stroke-width: 1; }
-    .orbit-path-outer { stroke: #00FF41; stroke-opacity: 0.15; stroke-dasharray: 8, 6; fill: none; stroke-width: 1.2; }
-    
-    /* Center Shield Styling */
-    .center-glow { fill: #00FF41; opacity: 0.08; filter: url(#centerGlow); }
-    .shield-border { stroke: #00FF41; stroke-width: 2; fill: #021206; filter: url(#neonGlow); }
-    .cyber-text { font-family: 'Courier New', Courier, monospace; fill: #00FF41; font-weight: bold; letter-spacing: 2px; }
-
-    /* Keyframe Rotations for Orbits */
-    @keyframes spinCW {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-
-    @keyframes spinCCW {
-      from { transform: rotate(360deg); }
-      to { transform: rotate(0deg); }
-    }
-
-    @keyframes counterSpinCW {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(-360deg); }
-    }
-
-    @keyframes counterSpinCCW {
-      from { transform: rotate(-360deg); }
-      to { transform: rotate(0deg); }
-    }
-
-    @keyframes pulseParticle {
-      0%, 100% { opacity: 0.2; transform: scale(0.8); }
-      50% { opacity: 0.9; transform: scale(1.4); }
-    }
-
-    /* Assign Rotation Speed & Direction to Orbit Rings */
-    .orbit-ring-1 {
-      transform-origin: 450px 400px;
-      animation: spinCW 60s linear infinite;
-    }
-    
-    .orbit-ring-2 {
-      transform-origin: 450px 400px;
-      animation: spinCCW 85s linear infinite;
-    }
-
-    .orbit-ring-3 {
-      transform-origin: 450px 400px;
-      animation: spinCW 110s linear infinite;
-    }
-
-    .orbit-ring-4 {
-      transform-origin: 450px 400px;
-      animation: spinCCW 140s linear infinite;
-    }
-
-    /* Keep Icons Upright while Orbiting */
-    .orbit-ring-1 .node {
-      transform-origin: center;
-      animation: counterSpinCW 60s linear infinite;
-    }
-    .orbit-ring-2 .node {
-      transform-origin: center;
-      animation: counterSpinCCW 85s linear infinite;
-    }
-    .orbit-ring-3 .node {
-      transform-origin: center;
-      animation: counterSpinCW 110s linear infinite;
-    }
-    .orbit-ring-4 .node {
-      transform-origin: center;
-      animation: counterSpinCCW 140s linear infinite;
-    }
-
-    /* Background Cyber Particles */
-    .p1 { animation: pulseParticle 3s infinite ease-in-out; }
-    .p2 { animation: pulseParticle 4.5s infinite ease-in-out 1s; }
-    .p3 { animation: pulseParticle 6s infinite ease-in-out 2s; }
-  </style>
-
-  <!-- Canvas Background -->
-  <rect width="100%" height="100%" fill="url(#bgGlow)"/>
-
-  <!-- ========================================== -->
-  <!-- BACKGROUND NETWORK & CYBER PARTICLES       -->
-  <!-- ========================================== -->
-  <g id="cyber-grid">
-    <line x1="0" y1="200" x2="900" y2="600" class="net-line"/>
-    <line x1="0" y1="600" x2="900" y2="200" class="net-line"/>
-    <line x1="150" y1="0" x2="750" y2="800" class="net-line"/>
-    <line x1="750" y1="0" x2="150" y2="800" class="net-line"/>
-    
-    <!-- Floating Background Particles -->
-    <circle cx="120" cy="150" r="2" fill="#00FF41" class="p1"/>
-    <circle cx="800" cy="180" r="1.5" fill="#00FF41" class="p2"/>
-    <circle cx="200" cy="700" r="2.5" fill="#00FF41" class="p3"/>
-    <circle cx="750" cy="650" r="2" fill="#00FF41" class="p1"/>
-    <circle cx="450" cy="100" r="1.5" fill="#00FF41" class="p2"/>
-    <circle cx="450" cy="720" r="2" fill="#00FF41" class="p3"/>
-  </g>
-
-  <!-- Static Orbit Ellipse Guides -->
-  <g id="orbit-guides">
-    <ellipse cx="450" cy="400" rx="180" ry="110" class="orbit-path"/>
-    <ellipse cx="450" cy="400" rx="270" ry="175" class="orbit-path"/>
-    <ellipse cx="450" cy="400" rx="355" ry="240" class="orbit-path"/>
-    <ellipse cx="450" cy="400" rx="420" ry="310" class="orbit-path-outer"/>
-  </g>
-
-  <!-- ========================================== -->
-  <!-- CENTER CYBER CORE                          -->
-  <!-- ========================================== -->
-  <g id="center-core" transform="translate(450, 400)">
-    <circle cx="0" cy="0" r="80" class="center-glow"/>
-    <circle cx="0" cy="0" r="55" fill="none" stroke="#00FF41" stroke-width="1" stroke-dasharray="6,4" opacity="0.4"/>
-    
-    <!-- Security Shield Icon -->
-    <path d="M0,-30 L22,-18 L22,6 C22,20 0,32 0,32 C0,32 -22,20 -22,6 L-22,-18 Z" class="shield-border"/>
-    <!-- Lock inside shield -->
-    <rect x="-7" y="-2" width="14" height="12" rx="2" fill="#00FF41"/>
-    <path d="M-4,-2 L-4,-7 C-4,-10 4,-10 4,-7 L4,-2" fill="none" stroke="#00FF41" stroke-width="2"/>
-    
-    <!-- Core Text -->
-    <text x="0" y="48" class="cyber-text" font-size="10" text-anchor="middle">BUILD • LEARN • SECURE</text>
-    <text x="0" y="62" fill="#00FF41" opacity="0.6" font-family="'Courier New', monospace" font-size="8" text-anchor="middle">INFOSEC STUDENT</text>
-  </g>
-
-  <!-- ========================================== -->
-  <!-- ORBIT RING 1 (INNERMOST - 8 TECHS)         -->
-  <!-- ========================================== -->
-  <!-- Orbit Path: rx=180, ry=110 -->
-  <g class="orbit-ring-1">
-    <!-- C++ (0 deg) -->
-    <g transform="translate(630, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-cpp"/></g></g>
-    <!-- Java (45 deg) -->
-    <g transform="translate(577, 477)"><g class="node"><use href="#cyber-node"/><use href="#icon-java"/></g></g>
-    <!-- Python (90 deg) -->
-    <g transform="translate(450, 510)"><g class="node"><use href="#cyber-node"/><use href="#icon-python"/></g></g>
-    <!-- JS (135 deg) -->
-    <g transform="translate(322, 477)"><g class="node"><use href="#cyber-node"/><use href="#icon-js"/></g></g>
-    <!-- TS (180 deg) -->
-    <g transform="translate(270, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-ts"/></g></g>
-    <!-- React (225 deg) -->
-    <g transform="translate(322, 322)"><g class="node"><use href="#cyber-node"/><use href="#icon-react"/></g></g>
-    <!-- Linux (270 deg) -->
-    <g transform="translate(450, 290)"><g class="node"><use href="#cyber-node"/><use href="#icon-linux"/></g></g>
-    <!-- Git (315 deg) -->
-    <g transform="translate(577, 322)"><g class="node"><use href="#cyber-node"/><use href="#icon-git"/></g></g>
-  </g>
-
-  <!-- ========================================== -->
-  <!-- ORBIT RING 2 (MID-INNER - 10 TECHS)        -->
-  <!-- ========================================== -->
-  <!-- Orbit Path: rx=270, ry=175 -->
-  <g class="orbit-ring-2">
-    <!-- Kotlin -->
-    <g transform="translate(720, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-kotlin"/></g></g>
-    <!-- C# -->
-    <g transform="translate(668, 523)"><g class="node"><use href="#cyber-node"/><use href="#icon-csharp"/></g></g>
-    <!-- HTML -->
-    <g transform="translate(533, 565)"><g class="node"><use href="#cyber-node"/><use href="#icon-html"/></g></g>
-    <!-- CSS -->
-    <g transform="translate(366, 565)"><g class="node"><use href="#cyber-node"/><use href="#icon-css"/></g></g>
-    <!-- Next.js -->
-    <g transform="translate(231, 523)"><g class="node"><use href="#cyber-node"/><use href="#icon-nextjs"/></g></g>
-    <!-- Node.js -->
-    <g transform="translate(180, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-nodejs"/></g></g>
-    <!-- Express -->
-    <g transform="translate(231, 276)"><g class="node"><use href="#cyber-node"/><use href="#icon-express"/></g></g>
-    <!-- Spring -->
-    <g transform="translate(366, 234)"><g class="node"><use href="#cyber-node"/><use href="#icon-spring"/></g></g>
-    <!-- Spring Cloud -->
-    <g transform="translate(533, 234)"><g class="node"><use href="#cyber-node"/><use href="#icon-springcloud"/></g></g>
-    <!-- Docker -->
-    <g transform="translate(668, 276)"><g class="node"><use href="#cyber-node"/><use href="#icon-docker"/></g></g>
-  </g>
-
-  <!-- ========================================== -->
-  <!-- ORBIT RING 3 (MID-OUTER - 12 TECHS)        -->
-  <!-- ========================================== -->
-  <!-- Orbit Path: rx=355, ry=240 -->
-  <g class="orbit-ring-3">
-    <!-- PostgreSQL -->
-    <g transform="translate(805, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-postgres"/></g></g>
-    <!-- MySQL -->
-    <g transform="translate(757, 520)"><g class="node"><use href="#cyber-node"/><use href="#icon-mysql"/></g></g>
-    <!-- MongoDB -->
-    <g transform="translate(627, 607)"><g class="node"><use href="#cyber-node"/><use href="#icon-mongodb"/></g></g>
-    <!-- Redis -->
-    <g transform="translate(450, 640)"><g class="node"><use href="#cyber-node"/><use href="#icon-redis"/></g></g>
-    <!-- Elasticsearch -->
-    <g transform="translate(272, 607)"><g class="node"><use href="#cyber-node"/><use href="#icon-elastic"/></g></g>
-    <!-- MinIO -->
-    <g transform="translate(142, 520)"><g class="node"><use href="#cyber-node"/><use href="#icon-minio"/></g></g>
-    <!-- Bash -->
-    <g transform="translate(95, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-bash"/></g></g>
-    <!-- Android -->
-    <g transform="translate(142, 280)"><g class="node"><use href="#cyber-node"/><use href="#icon-android"/></g></g>
-    <!-- Android Studio -->
-    <g transform="translate(272, 192)"><g class="node"><use href="#cyber-node"/><use href="#icon-androidstudio"/></g></g>
-    <!-- Godot -->
-    <g transform="translate(450, 160)"><g class="node"><use href="#cyber-node"/><use href="#icon-godot"/></g></g>
-    <!-- SFML -->
-    <g transform="translate(627, 192)"><g class="node"><use href="#cyber-node"/><use href="#icon-sfml"/></g></g>
-    <!-- GitHub -->
-    <g transform="translate(757, 280)"><g class="node"><use href="#cyber-node"/><use href="#icon-github"/></g></g>
-  </g>
-
-  <!-- ========================================== -->
-  <!-- ORBIT RING 4 (OUTERMOST - 12 TECHS)       -->
-  <!-- ========================================== -->
-  <!-- Orbit Path: rx=420, ry=310 -->
-  <g class="orbit-ring-4">
-    <!-- Burp Suite -->
-    <g transform="translate(870, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-burp"/></g></g>
-    <!-- Wireshark -->
-    <g transform="translate(813, 555)"><g class="node"><use href="#cyber-node"/><use href="#icon-wireshark"/></g></g>
-    <!-- TryHackMe -->
-    <g transform="translate(660, 668)"><g class="node"><use href="#cyber-node"/><use href="#icon-thm"/></g></g>
-    <!-- GNS3 -->
-    <g transform="translate(450, 710)"><g class="node"><use href="#cyber-node"/><use href="#icon-gns3"/></g></g>
-    <!-- Cisco -->
-    <g transform="translate(239, 668)"><g class="node"><use href="#cyber-node"/><use href="#icon-cisco"/></g></g>
-    <!-- Packet Tracer -->
-    <g transform="translate(86, 555)"><g class="node"><use href="#cyber-node"/><use href="#icon-packettracer"/></g></g>
-    <!-- VS Code -->
-    <g transform="translate(30, 400)"><g class="node"><use href="#cyber-node"/><use href="#icon-vscode"/></g></g>
-    <!-- Visual Studio -->
-    <g transform="translate(86, 244)"><g class="node"><use href="#cyber-node"/><use href="#icon-visualstudio"/></g></g>
-    <!-- Eclipse -->
-    <g transform="translate(239, 131)"><g class="node"><use href="#cyber-node"/><use href="#icon-eclipse"/></g></g>
-    <!-- IntelliJ IDEA -->
-    <g transform="translate(450, 90)"><g class="node"><use href="#cyber-node"/><use href="#icon-intellij"/></g></g>
-    <!-- Anaconda -->
-    <g transform="translate(660, 131)"><g class="node"><use href="#cyber-node"/><use href="#icon-anaconda"/></g></g>
-    <!-- Dev-C++ -->
-    <g transform="translate(813, 244)"><g class="node"><use href="#cyber-node"/><use href="#icon-devcpp"/></g></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 860" width="100%" height="100%">
+  <title>Tech Stack Center Orbit - Cyber Theme</title>
+  
+  <defs>
+    <!-- Dark Cyber Radial Background -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#061C0E"/>
+      <stop offset="55%" stop-color="#020B05"/>
+      <stop offset="100%" stop-color="#000402"/>
+    </radialGradient>
+
+    <!-- Neon Glow Effect -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="centerShieldGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Base Cyber Circle Holder for Custom Badges -->
+    <g id="cyber-base">
+      <circle cx="0" cy="0" r="22" fill="#061A0C" stroke="#00FF41" stroke-width="1.2" filter="url(#neonGlow)"/>
+      <circle cx="0" cy="0" r="19" fill="#0A2212"/>
+    </g>
+
+    <!-- CUSTOM EXTRA ICONS -->
+    <g id="icon-sfml">
+      <circle cx="0" cy="0" r="18" fill="#1E1E1E"/>
+      <path d="M-8,-6 L-2,-6 L-2,0 L-8,0 Z" fill="#8CC63F"/>
+      <path d="M2,-6 L8,-6 L8,6 L2,6 Z" fill="#8CC63F"/>
+      <path d="M-8,2 L-2,2 L-2,6 L-8,6 Z" fill="#00A896"/>
+    </g>
+
+    <g id="icon-minio">
+      <circle cx="0" cy="0" r="18" fill="#C72C48"/>
+      <path d="M-8,5 L-8,-5 L-2,-1 L-2,5 Z M0,5 L0,-1 L6,-5 L6,5 Z" fill="#FFFFFF"/>
+    </g>
+
+    <g id="icon-burp">
+      <circle cx="0" cy="0" r="18" fill="#FF6600"/>
+      <path d="M-3,-9 L4,-9 L1,0 L6,0 L-3,9 L-1,2 L-5,2 Z" fill="#FFFFFF"/>
+    </g>
+
+    <g id="icon-wireshark">
+      <circle cx="0" cy="0" r="18" fill="#1679A7"/>
+      <path d="M-10,6 C-2,6 0,-6 9,-6 C3,-1 0,8 -10,6 Z" fill="#FFFFFF"/>
+    </g>
+
+    <g id="icon-thm">
+      <circle cx="0" cy="0" r="18" fill="#111827"/>
+      <path d="M-8,-5 L8,-5 L0,8 Z" fill="#22C55E"/>
+      <text x="0" y="-1" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="6" text-anchor="middle">THM</text>
+    </g>
+
+    <g id="icon-gns3">
+      <circle cx="0" cy="0" r="18" fill="#000000"/>
+      <path d="M-6,-2 C-6,-6 6,-6 6,-2 C6,3 0,1 0,7" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="0" cy="-2" r="1.5" fill="#FFFFFF"/>
+    </g>
+
+    <g id="icon-packettracer">
+      <circle cx="0" cy="0" r="18" fill="#0B192C"/>
+      <circle cx="-5" cy="4" r="2.2" fill="#049FD9"/>
+      <circle cx="5" cy="4" r="2.2" fill="#049FD9"/>
+      <circle cx="0" cy="-4" r="2.2" fill="#049FD9"/>
+      <line x1="-5" y1="4" x2="0" y2="-4" stroke="#FFFFFF" stroke-width="1.2"/>
+      <line x1="5" y1="4" x2="0" y2="-4" stroke="#FFFFFF" stroke-width="1.2"/>
+      <line x1="-5" y1="4" x2="5" y2="4" stroke="#FFFFFF" stroke-width="1.2"/>
+    </g>
+
+    <g id="icon-devcpp">
+      <circle cx="0" cy="0" r="18" fill="#00599C"/>
+      <rect x="-9" y="-6" width="18" height="12" rx="1.5" fill="#1E293B"/>
+      <text x="0" y="3" fill="#61DAFB" font-family="sans-serif" font-weight="bold" font-size="7.5" text-anchor="middle">DEV</text>
+    </g>
+  </defs>
+
+  <style>
+    /* Styling &amp; Animation Rules */
+    .bg-line { stroke: #00FF41; stroke-opacity: 0.15; stroke-dasharray: 4, 4; fill: none; }
+    .center-cross { stroke: #00FF41; stroke-opacity: 0.35; stroke-width: 1; stroke-dasharray: 6, 6; }
+    .orbit-circle { fill: none; stroke: #00FF41; stroke-opacity: 0.25; stroke-width: 1.2; }
+    .orbit-circle-outer { fill: none; stroke: #00FF41; stroke-opacity: 0.18; stroke-width: 1.2; stroke-dasharray: 8, 6; }
+    
+    .shield-bg { fill: #021407; stroke: #00FF41; stroke-width: 2.2; filter: url(#centerShieldGlow); }
+    .cyber-title { font-family: 'Courier New', Courier, monospace; fill: #00FF41; font-weight: bold; letter-spacing: 2px; }
+
+    /* Keyframes for Continuous Orbiting around Center (480, 430) */
+    @keyframes rotateCW {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes rotateCCW {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+
+    /* Counter-rotation so icons remain upright while orbiting */
+    @keyframes counterRotateCW {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+    }
+    @keyframes counterRotateCCW {
+      from { transform: rotate(-360deg); }
+      to { transform: rotate(0deg); }
+    }
+
+    /* Assigning rotation to Orbit Groups around Center (480px, 430px) */
+    .ring-1 { transform-origin: 480px 430px; animation: rotateCW 25s linear infinite; }
+    .ring-2 { transform-origin: 480px 430px; animation: rotateCCW 25s linear infinite; }
+    .ring-3 { transform-origin: 480px 430px; animation: rotateCW 25s linear infinite; }
+    .ring-4 { transform-origin: 480px 430px; animation: rotateCCW 25s linear infinite; }
+
+    .ring-1 .node { transform-origin: center; animation: counterRotateCW 25s linear infinite; }
+    .ring-2 .node { transform-origin: center; animation: counterRotateCCW 25s linear infinite; }
+    .ring-3 .node { transform-origin: center; animation: counterRotateCW 25s linear infinite; }
+    .ring-4 .node { transform-origin: center; animation: counterRotateCCW 25s linear infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGlow)"/>
+
+  <!-- Center Diagonal Grid (Intersecting at 480, 430) -->
+  <g id="center-diagonals">
+    <line x1="0" y1="0" x2="960" y2="860" class="center-cross"/>
+    <line x1="0" y1="860" x2="960" y2="0" class="center-cross"/>
+    <line x1="480" y1="0" x2="480" y2="860" class="bg-line"/>
+    <line x1="0" y1="430" x2="960" y2="430" class="bg-line"/>
+  </g>
+
+  <!-- Orbit Path Visual Circles centered at (480, 430) -->
+  <g id="orbit-paths">
+    <circle cx="480" cy="430" r="130" class="orbit-circle"/>
+    <circle cx="480" cy="430" r="220" class="orbit-circle"/>
+    <circle cx="480" cy="430" r="310" class="orbit-circle"/>
+    <circle cx="480" cy="430" r="395" class="orbit-circle-outer"/>
+  </g>
+
+  <!-- CENTER CORE (Giao điểm 2 đường chéo: x=480, y=430) -->
+  <g id="center-core" transform="translate(480, 430)">
+    <circle cx="0" cy="0" r="75" fill="#00FF41" opacity="0.06" filter="url(#centerShieldGlow)"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#00FF41" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.5"/>
+    
+    <!-- Central Security Shield -->
+    <path d="M0,-28 L20,-17 L20,6 C20,19 0,30 0,30 C0,30 -20,19 -20,6 L-20,-17 Z" class="shield-bg"/>
+    <rect x="-7" y="-2" width="14" height="11" rx="2" fill="#00FF41"/>
+    <path d="M-4,-2 L-4,-7 C-4,-10 4,-10 4,-7 L4,-2" fill="none" stroke="#00FF41" stroke-width="2"/>
+    
+    <text x="0" y="48" class="cyber-title" font-size="11" text-anchor="middle">TECH STACK</text>
+    <text x="0" y="62" fill="#00FF41" opacity="0.7" font-family="'Courier New', monospace" font-size="8.5" text-anchor="middle">CENTER ORBIT</text>
+  </g>
+
+  <!-- ORBIT 1: 10 Core Languages (Radius: 130px around 480,430) -->
+  <g class="ring-1">
+    <g transform="translate(610, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=cpp" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(585, 506)"><g class="node"><image href="https://skillicons.dev/icons?i=java" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(520, 553)"><g class="node"><image href="https://skillicons.dev/icons?i=py" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(440, 553)"><g class="node"><image href="https://skillicons.dev/icons?i=js" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(375, 506)"><g class="node"><image href="https://skillicons.dev/icons?i=ts" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(350, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=kt" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(375, 354)"><g class="node"><image href="https://skillicons.dev/icons?i=lua" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(440, 307)"><g class="node"><image href="https://skillicons.dev/icons?i=cs" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(520, 307)"><g class="node"><image href="https://skillicons.dev/icons?i=html" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(585, 354)"><g class="node"><image href="https://skillicons.dev/icons?i=css" x="-18" y="-18" width="36" height="36"/></g></g>
+  </g>
+
+  <!-- ORBIT 2: 10 Frameworks &amp; Game Engine (Radius: 220px around 480,430) -->
+  <g class="ring-2">
+    <g transform="translate(700, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=react" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(658, 559)"><g class="node"><image href="https://skillicons.dev/icons?i=nextjs" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(548, 639)"><g class="node"><image href="https://skillicons.dev/icons?i=nodejs" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(412, 639)"><g class="node"><image href="https://skillicons.dev/icons?i=express" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(302, 559)"><g class="node"><image href="https://skillicons.dev/icons?i=spring" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(260, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=androidstudio" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(302, 301)"><g class="node"><image href="https://skillicons.dev/icons?i=godot" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(412, 221)"><g class="node"><use href="#cyber-base"/><use href="#icon-sfml"/></g></g>
+    <g transform="translate(548, 221)"><g class="node"><image href="https://skillicons.dev/icons?i=postgres" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(658, 301)"><g class="node"><image href="https://skillicons.dev/icons?i=mysql" x="-18" y="-18" width="36" height="36"/></g></g>
+  </g>
+
+  <!-- ORBIT 3: 11 Databases, DevOps &amp; Cyber Security (Radius: 310px around 480,430) -->
+  <g class="ring-3">
+    <g transform="translate(790, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=mongodb" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(741, 598)"><g class="node"><image href="https://skillicons.dev/icons?i=redis" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(608, 712)"><g class="node"><image href="https://skillicons.dev/icons?i=docker" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(436, 737)"><g class="node"><image href="https://skillicons.dev/icons?i=elasticsearch" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(277, 664)"><g class="node"><use href="#cyber-base"/><use href="#icon-minio"/></g></g>
+    <g transform="translate(182, 517)"><g class="node"><image href="https://skillicons.dev/icons?i=linux" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(182, 343)"><g class="node"><image href="https://skillicons.dev/icons?i=bash" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(277, 196)"><g class="node"><use href="#cyber-base"/><use href="#icon-burp"/></g></g>
+    <g transform="translate(436, 123)"><g class="node"><use href="#cyber-base"/><use href="#icon-wireshark"/></g></g>
+    <g transform="translate(608, 148)"><g class="node"><use href="#cyber-base"/><use href="#icon-thm"/></g></g>
+    <g transform="translate(741, 262)"><g class="node"><use href="#cyber-base"/><use href="#icon-gns3"/></g></g>
+  </g>
+
+  <!-- ORBIT 4: 12 Tools, Networking &amp; IDEs (Radius: 395px around 480,430) -->
+  <g class="ring-4">
+    <g transform="translate(875, 430)"><g class="node"><image href="https://skillicons.dev/icons?i=git" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(822, 628)"><g class="node"><image href="https://skillicons.dev/icons?i=github" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(678, 772)"><g class="node"><image href="https://skillicons.dev/icons?i=vscode" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(480, 825)"><g class="node"><image href="https://skillicons.dev/icons?i=visualstudio" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(283, 772)"><g class="node"><image href="https://skillicons.dev/icons?i=eclipse" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(138, 628)"><g class="node"><image href="https://skillicons.dev/icons?i=idea" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(85, 430)"><g class="node"><use href="#cyber-base"/><use href="#icon-packettracer"/></g></g>
+    <g transform="translate(138, 232)"><g class="node"><image href="https://skillicons.dev/icons?i=cisco" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(283, 88)"><g class="node"><image href="https://skillicons.dev/icons?i=anaconda" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(480, 35)"><g class="node"><use href="#cyber-base"/><use href="#icon-devcpp"/></g></g>
+    <g transform="translate(678, 88)"><g class="node"><image href="https://skillicons.dev/icons?i=cpp" x="-18" y="-18" width="36" height="36"/></g></g>
+    <g transform="translate(822, 232)"><g class="node"><image href="https://skillicons.dev/icons?i=java" x="-18" y="-18" width="36" height="36"/></g></g>
+  </g>
 </svg>
