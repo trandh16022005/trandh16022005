@@ -135,9 +135,9 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=trandh16022005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=trandh16022005&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trandh16022005&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trandh16022005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
@@ -147,7 +147,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=trandh16022005&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=trandh16022005&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="95%" />
 
 </div>
 
@@ -158,26 +158,27 @@
 <div align="center">
 
 <a href="https://github.com/trandh16022005/MotorcycleShopMVC">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=MotorcycleShopMVC&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=MotorcycleShopMVC&theme=tokyonight&hide_border=true" />
 </a>
 
 <a href="https://github.com/trandh16022005/Josephus-PBL1">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=Josephus-PBL1&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=Josephus-PBL1&theme=tokyonight&hide_border=true" />
 </a>
 
 <a href="https://github.com/trandh16022005/DormitoryManagement">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=DormitoryManagement&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=DormitoryManagement&theme=tokyonight&hide_border=true" />
 </a>
 
 <a href="https://github.com/trandh16022005/HoiAnHeritage">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=HoiAnHeritage&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=HoiAnHeritage&theme=tokyonight&hide_border=true" />
 </a>
 
 <a href="https://github.com/trandh16022005/chess-boss-prototype">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=chess-boss-prototype&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=chess-boss-prototype&theme=tokyonight&hide_border=true" />
 </a>
 
 </div>
+
 
 ---
 
