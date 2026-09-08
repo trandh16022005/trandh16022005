@@ -68,8 +68,11 @@
 <br>
 
 <img src="https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Retrofit-000000?style=for-the-badge&logo=android&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Room-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+
 <img src="https://img.shields.io/badge/SFML-8CC445?style=for-the-badge&logo=sfml&logoColor=white" />
 
 <br><br>
@@ -81,6 +84,7 @@
 <br>
 
 <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
+
 <img src="https://img.shields.io/badge/MinIO-C72E29?style=for-the-badge&logo=minio&logoColor=white" />
 
 <br><br>
@@ -92,8 +96,11 @@
 <br>
 
 <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+
 <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+
 <img src="https://img.shields.io/badge/GNS3-1A1A1A?style=for-the-badge&logo=gns3&logoColor=white" />
 
 <br><br>
@@ -104,9 +111,10 @@
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=docker&perline=1" />
 <img src="https://img.shields.io/badge/Dev--C%2B%2B-004482?style=for-the-badge&logo=cplusplus&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
 
 </div>
