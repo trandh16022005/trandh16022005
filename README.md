@@ -51,63 +51,63 @@
 
 ---
 
-## 💻 Languages
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,cs" />
-</p>
-
----
-
-## 🌐 Frameworks & Technologies
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,spring,androidstudio,godot" />
-</p>
+## 🧰 Tech Stack
 
 <div align="center">
 
-`React` · `Next.js` · `Node.js` · `Express.js`
+### 💻 Languages
 
-`Spring Boot` · `Spring Cloud`
-
-`Android` · `Retrofit` · `Room` · `Godot` · `SFML`
-
-</div>
-
----
-
-## 🗄️ Database & Storage
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" />
-</p>
-
-<div align="center">
-
-`PostgreSQL` · `MySQL` · `MongoDB` · `Redis`
-
-`Elasticsearch` · `MinIO`
-
-</div>
-
----
-
-## 🔐 Cyber Security
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=linux,bash" />
-
-<br>
-
-`Burp Suite` · `Wireshark` · `TryHackMe` · `GNS3`
+<img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,cs&perline=7" />
 
 <br><br>
 
-**Web Security** · **Network Security** · **Packet Analysis**
+### 🌐 Development
 
-**Authentication** · **Linux Security** · **CTF**
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,spring,androidstudio,godot&perline=7" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+<img src="https://img.shields.io/badge/Retrofit-000000?style=for-the-badge&logo=android&logoColor=white" />
+<img src="https://img.shields.io/badge/Room-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<img src="https://img.shields.io/badge/SFML-8CC445?style=for-the-badge&logo=sfml&logoColor=white" />
+
+<br><br>
+
+### 🗄️ Database & Infrastructure
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,docker&perline=5" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
+<img src="https://img.shields.io/badge/MinIO-C72E29?style=for-the-badge&logo=minio&logoColor=white" />
+
+<br><br>
+
+### 🔐 Security & Networking
+
+<img src="https://skillicons.dev/icons?i=linux,bash&perline=2" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+<img src="https://img.shields.io/badge/GNS3-1A1A1A?style=for-the-badge&logo=gns3&logoColor=white" />
+
+<br><br>
+
+### ⚙️ Tools & Environment
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,eclipse,idea,androidstudio,anaconda&perline=8" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=docker&perline=1" />
+<img src="https://img.shields.io/badge/Dev--C%2B%2B-004482?style=for-the-badge&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+<img src="https://img.shields.io/badge/Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
 
 </div>
 
@@ -123,17 +123,7 @@
 
 `PPP` · `PAP` · `CHAP`
 
-`Cisco` · `GNS3` · `Wireshark` · `Packet Tracer`
-
 </div>
-
----
-
-## ⚙️ Tools & Environment
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,eclipse,postman,docker,linux,anaconda" />
-</p>
 
 ---
 
