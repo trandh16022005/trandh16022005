@@ -8,11 +8,20 @@
 
 <p>
   <a href="https://github.com/trandh16022005">
-    <img src="https://komarev.com/ghpvc/?username=trandh16022005&label=Profile%20Views&style=flat" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=trandh16022005&label=Profile%20Views&style=flat&color=00FF41" alt="Profile Views" />
   </a>
-
   <a href="https://github.com/trandh16022005?tab=followers">
-    <img src="https://img.shields.io/github/followers/trandh16022005?label=Followers&style=flat" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/followers/trandh16022005?label=Followers&style=flat&color=00FF41" alt="GitHub Followers" />
+  </a>
+</p>
+
+<!-- Bạn có thể thay link Contact tại đây nếu muốn -->
+<p>
+  <a href="mailto:email@example.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
@@ -22,33 +31,21 @@
 
 ## 🧑‍💻 About Me
 
-🎓 **Major:** Information Security
-
-🔐 **Focus:** Cyber Security · Network Security · Web Security
-
-🌐 **Interests:** Computer Networks · Network Administration · Security Engineering
-
-🐧 **Currently Learning:** Linux · Networking · Cyber Security · Web Security
-
-💻 **Background:** Software Development · Backend Development · Database Systems
-
-🧩 **Learning Through:** Hands-on Labs · CTFs · Networking Simulations · Personal Projects
-
-🎯 **Goal:** Build strong practical skills in cybersecurity while developing solid software and networking foundations.
+🎓 **Major:** Information Security  
+🔐 **Focus:** Cyber Security · Network Security · Web Security  
+🌐 **Interests:** Computer Networks · Network Administration · Security Engineering  
+🐧 **Currently Learning:** Linux · Networking · Cyber Security · Web Security  
+💻 **Background:** Software Development · Backend Development · Database Systems  
+🧩 **Learning Through:** Hands-on Labs · CTFs · Networking Simulations · Personal Projects  
+🎯 **Goal:** Build strong practical skills in cybersecurity while developing solid software and networking foundations.  
 
 ---
 
 ## 🛡️ Areas of Interest
 
-<div align="center">
-
-**Cyber Security** · **Network Security** · **Web Security**
-
-**Computer Networks** · **Linux** · **Security Engineering**
-
-**CTF** · **Packet Analysis** · **System Administration**
-
-</div>
+- 🔐 **Cyber & Network Security:** Web Security, Network Administration, Security Engineering
+- 🐧 **Systems & Tools:** Linux Administration, Packet Analysis, System Infrastructure
+- 🧪 **Hands-on Practice:** CTF Challenges, Network Simulations, Vulnerability Research
 
 ---
 
@@ -56,35 +53,33 @@
 
 <div align="center">
 
-<img src="./assets/tech-stack.svg" width="850" alt="Tech Stack" />
+[![My Skills](https://skillicons.dev/icons?i=cpp,java,py,js,ts,kotlin,lua,cs,html,css,react,nextjs,nodejs,express,spring,android,godot,postgres,mysql,mongodb,redis,docker,elasticsearch,linux,bash,git,github,vscode,visualstudio,eclipse,idea,anaconda&perline=11)](https://skillicons.dev)
 
 </div>
 
 ---
 
-## 🌐 Networking
+## 🌐 Networking Protocols & Concepts
 
 <div align="center">
 
-`TCP/IP` · `IPv4` · `Subnetting` · `VLSM`
-
-`RIPv2` · `OSPF` · `EIGRP`
-
-`PPP` · `PAP` · `CHAP`
+![](https://img.shields.io/badge/TCP/IP-00599C?style=flat-square)
+![](https://img.shields.io/badge/IPv4-008080?style=flat-square)
+![](https://img.shields.io/badge/Subnetting-4B0082?style=flat-square)
+![](https://img.shields.io/badge/VLSM-2E8B57?style=flat-square)  
+![](https://img.shields.io/badge/Routing-RIPv2%20%7C%20OSPF%20%7C%20EIGRP-1E90FF?style=flat-square)  
+![](https://img.shields.io/badge/PPP-PAP%20%7C%20CHAP-FF8C00?style=flat-square)
 
 </div>
 
 ---
 
-## 📚 Currently Learning
+## 📊 GitHub Stats
 
 <div align="center">
 
-🛡️ **Cyber Security** · 🌐 **Network Security** · 🔐 **Web Security**
-
-🐧 **Linux** · 🔎 **Packet Analysis** · 🧪 **CTF**
-
-⚙️ **Backend Development** · ☁️ **Infrastructure & DevOps**
+<img src="https://github-readme-stats.vercel.app/api?username=trandh16022005&show_icons=true&theme=radial&hide_border=true" alt="GitHub Stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=trandh16022005&layout=compact&theme=radial&hide_border=true" alt="Top Languages" width="48%" />
 
 </div>
 
@@ -94,15 +89,11 @@
 
 <div align="center">
 
-**Information Security**
-
-↓
-
-**Cyber Security · Network Security · Web Security**
-
-↓
-
-**Security Engineering**
+`Information Security`  
+↓  
+`Cyber Security` · `Network Security` · `Web Security`  
+↓  
+`Security Engineering`
 
 </div>
 
