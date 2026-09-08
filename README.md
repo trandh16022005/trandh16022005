@@ -23,13 +23,13 @@
 
 🎓 **Major:** Information Security
 
-🔐 **Primary Focus:** Cyber Security · Network Security · Web Security
+🔐 **Focus:** Cyber Security · Network Security · Web Security
 
 🌐 **Interests:** Computer Networks · Network Administration · Security Engineering
 
 🐧 **Currently Learning:** Linux · Networking · Cyber Security · Web Security
 
-💻 **Development Background:** Software Development · Backend Development · Database Systems
+💻 **Background:** Software Development · Backend Development · Database Systems
 
 🧩 **Learning Through:** Hands-on Labs · CTFs · Networking Simulations · Personal Projects
 
@@ -41,121 +41,49 @@
 
 <div align="center">
 
-|    🔐 Cyber Security   |    🌐 Networking    |       🐧 Systems      |  💻 Software  |
-| :--------------------: | :-----------------: | :-------------------: | :-----------: |
-|      Web Security      | Routing & Switching |         Linux         |    Backend    |
-|    Network Security    |        Cisco        | System Administration |    REST API   |
-|           CTF          |         GNS3        |     Security Labs     |    Database   |
-| Vulnerability Analysis |      Wireshark      |         TCP/IP        |      MVC      |
-|     Packet Analysis    |  Network Protocols  |          Bash         | Microservices |
+**Cyber Security** · **Network Security** · **Web Security**
+**Computer Networks** · **Linux** · **Security Engineering**
+**CTF** · **Packet Analysis** · **System Administration**
 
 </div>
 
 ---
 
-# 💻 Programming Languages
+# 💻 Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,cs,godot" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,kotlin,cs" />
+</p>
+
+---
+
+# 🌐 Frameworks & Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,spring,androidstudio,godot" />
 </p>
 
 <div align="center">
 
-`C++` · `Java` · `Python` · `JavaScript` · `TypeScript`
-`Kotlin` · `C#` · `GDScript`
+`React` · `Next.js` · `Node.js` · `Express.js` · `Spring Boot` · `Spring Cloud`
+
+`Android` · `Kotlin` · `Retrofit` · `Room` · `Godot` · `SFML`
 
 </div>
-
----
-
-# 🌐 Web Development
-
-## Frontend
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs" />
-</p>
-
-* HTML5
-* CSS3
-* JavaScript
-* TypeScript
-* React.js
-* Next.js
-
-## Backend
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,spring" />
-</p>
-
-* Node.js
-* Express.js
-* Spring Boot
-* Spring Cloud
-* Spring Cloud Gateway
-
-## Architecture & API
-
-```text
-REST API
-MVC Architecture
-Microservices
-Service-based Architecture
-API Gateway
-Dependency Injection
-```
 
 ---
 
 # 🗄️ Database & Storage
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" />
 </p>
 
-### Relational Database
+<div align="center">
 
-`PostgreSQL` · `MySQL` · `SQL`
+`PostgreSQL` · `MySQL` · `MongoDB` · `Redis` · `Elasticsearch` · `MinIO`
 
-### NoSQL & In-Memory
-
-`MongoDB` · `Redis`
-
-### Other Technologies
-
-`MongoDB Atlas` · `Railway` · `MinIO` · `Elasticsearch`
-
----
-
-# 📱 Mobile Development
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin" />
-</p>
-
-* Android
-* Kotlin
-* Retrofit
-* Room
-* Dependency Injection
-* REST API Integration
-
----
-
-# 🎮 Game Development
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=godot,cpp" />
-</p>
-
-* Godot Engine
-* GDScript
-* C++
-* SFML
-* 2D Game Development
-* Game Architecture
-* Turn-based Systems
+</div>
 
 ---
 
@@ -163,133 +91,43 @@ Dependency Injection
 
 <div align="center">
 
-### Security Areas
+<img src="https://skillicons.dev/icons?i=linux,bash" />
 
-`Web Security` · `Network Security` · `Linux Security`
+<br>
 
-`Packet Analysis` · `CTF` · `Vulnerability Analysis`
+`Burp Suite` · `Wireshark` · `TryHackMe` · `GNS3`
 
-`Authentication` · `Network Protocols`
+<br><br>
+
+**Web Security** · **Network Security** · **Packet Analysis**
+
+**Authentication** · **Linux Security** · **CTF**
 
 </div>
 
-### 🧪 Security Tools
+---
+
+# 🌐 Networking
+
+<div align="center">
+
+`TCP/IP` · `IPv4` · `Subnetting` · `VLSM`
+
+`RIPv2` · `OSPF` · `EIGRP`
+
+`PPP` · `PAP` · `CHAP`
+
+`Cisco` · `GNS3` · `Wireshark` · `Packet Tracer`
+
+</div>
+
+---
+
+# ⚙️ Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,eclipse,postman,docker,linux" />
 </p>
-
-`Burp Suite` · `Wireshark` · `GNS3` · `TryHackMe`
-
-### 🔎 Security Topics
-
-```text
-Web Security
-Network Security
-Packet Analysis
-Authentication
-Network Protocol Security
-Linux Security
-CTF & Security Labs
-Vulnerability Analysis
-```
-
----
-
-# 🌐 Computer Networking
-
-### Networking Technologies
-
-```text
-TCP/IP
-IPv4
-Subnetting
-VLSM
-Routing & Switching
-Network Authentication
-Network Protocols
-```
-
-### Routing
-
-```text
-RIPv2
-OSPF
-EIGRP
-```
-
-### Authentication & WAN
-
-```text
-PPP
-PAP
-CHAP
-PPP Authentication
-```
-
-### Networking Tools
-
-`Cisco` · `GNS3` · `Wireshark` · `Cisco Packet Tracer`
-
----
-
-# 🐧 Linux & Systems
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,bash" />
-</p>
-
-```text
-Linux
-Ubuntu
-Bash
-Shell
-File System
-Process Management
-Networking
-System Administration
-Virtualization
-```
-
----
-
-# ⚙️ Tools & Development Environment
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,docker,postman" />
-</p>
-
-### Development
-
-`VS Code` · `Visual Studio` · `Eclipse` · `Android Studio`
-
-### Version Control
-
-`Git` · `GitHub`
-
-### API & Testing
-
-`Postman`
-
-### Containers & Infrastructure
-
-`Docker`
-
----
-
-# 🧰 Frameworks & Libraries
-
-| Category                         | Technologies                         |
-| :------------------------------- | :----------------------------------- |
-| **Frontend**                     | React.js · Next.js                   |
-| **Backend**                      | Node.js · Express.js · Spring Boot   |
-| **Cloud / Backend Architecture** | Spring Cloud · Spring Cloud Gateway  |
-| **Mobile**                       | Android · Kotlin · Retrofit · Room   |
-| **Game Development**             | Godot · SFML                         |
-| **Database**                     | PostgreSQL · MongoDB · MySQL · Redis |
-| **Security**                     | Burp Suite · Wireshark · GNS3        |
-| **Testing / API**                | Postman                              |
-| **DevOps**                       | Docker · Git · GitHub                |
 
 ---
 
@@ -335,34 +173,11 @@ Virtualization
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=HoiAnHeritage&theme=tokyonight&hide_border=true" />
 </a>
 
+<a href="https://github.com/trandh16022005/chess-boss-prototype">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=trandh16022005&repo=chess-boss-prototype&theme=tokyonight&hide_border=true" />
+</a>
+
 </div>
-
----
-
-# 🎯 Current Learning Goals
-
-```text
-🛡️ Cyber Security
-████████░░  Network Security
-███████░░░  Web Security
-███████░░░  Linux Security
-██████░░░░  CTF & Security Labs
-
-🌐 Networking
-████████░░  Computer Networks
-███████░░░  Routing & Switching
-███████░░░  Packet Analysis
-
-💻 Development
-███████░░░  Backend Development
-██████░░░░  System Design
-██████░░░░  Secure Software Development
-
-⚙️ Infrastructure
-█████░░░░░  Linux Administration
-█████░░░░░  Docker
-████░░░░░░  DevSecOps
-```
 
 ---
 
@@ -370,39 +185,33 @@ Virtualization
 
 <div align="center">
 
-🛡️ **Cyber Security**
+🛡️ **Cyber Security** · 🌐 **Network Security** · 🔐 **Web Security**
 
-🌐 **Network Security**
+🐧 **Linux** · 🔎 **Packet Analysis** · 🧪 **CTF**
 
-🔐 **Web Security**
-
-🐧 **Linux & System Administration**
-
-🔎 **Network & Packet Analysis**
-
-🧪 **CTF & Security Labs**
-
-⚙️ **Backend & Distributed Systems**
-
-☁️ **Infrastructure & DevOps**
+⚙️ **Backend Development** · ☁️ **Infrastructure & DevOps**
 
 </div>
 
 ---
 
-# 🧠 Learning Philosophy
+# 🎯 Career Direction
 
-> **Learn the fundamentals. Build practical systems. Understand how they work. Secure them.**
+<div align="center">
 
-I'm continuously improving my knowledge through hands-on experimentation, technical projects, networking labs and security challenges.
+**Information Security**
+↓
+**Cyber Security · Network Security · Web Security**
+↓
+**Security Engineering**
+
+</div>
 
 ---
 
 <div align="center">
 
-## 🛡️ Learn · Build · Secure
-
-<br>
+### 🛡️ Learn · Build · Secure
 
 ⭐ Thanks for visiting my profile!
 
