@@ -31,13 +31,13 @@
 
 ## 🧑‍💻 About Me
 
-🎓 **Major:** Information Security  
-🔐 **Focus:** Cyber Security · Network Security · Web Security  
-🌐 **Interests:** Computer Networks · Network Administration · Security Engineering  
-🐧 **Currently Learning:** Linux · Networking · Cyber Security · Web Security  
-💻 **Background:** Software Development · Backend Development · Database Systems  
-🧩 **Learning Through:** Hands-on Labs · CTFs · Networking Simulations · Personal Projects  
-🎯 **Goal:** Build strong practical skills in cybersecurity while developing solid software and networking foundations.  
+🎓 **Major:** Information Technology  
+🔐 **Specialization:** Information Security  
+🌐 **Interests:** Computer Networks · Network Administration · Web & Systems Security · Security Engineering  
+🐧 **Currently Learning:** Linux · Networking · Network Programming · Web Technologies  
+💻 **Background:** C/C++ · OOP · Java & .NET · Data Structures & Algorithms · Operating Systems · Database Systems  
+🧩 **Learning Through:** Hands-on Labs · Project-Based Learning · CTFs · Personal Projects  
+🎯 **Goal:** Build strong practical skills in penetration testing, digital forensics, and secure infrastructure while maintaining a solid foundation in software engineering.
 
 ---
 
@@ -53,7 +53,7 @@
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=cpp,java,py,js,ts,kotlin,lua,cs,html,css,react,nextjs,nodejs,express,spring,android,godot,postgres,mysql,mongodb,redis,docker,elasticsearch,linux,bash,git,github,vscode,visualstudio,eclipse,idea,anaconda&perline=11)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=cpp,java,py,js,ts,kotlin,lua,cs,html,css,react,nextjs,nodejs,express,spring,android,godot,postgres,mysql,mongodb,redis,docker,elasticsearch,linux,bash,git,github,vscode,visualstudio,eclipse,idea,anaconda,discord,windows&perline=11)](https://skillicons.dev)
 
 </div>
 
@@ -69,17 +69,6 @@
 ![](https://img.shields.io/badge/VLSM-2E8B57?style=flat-square)  
 ![](https://img.shields.io/badge/Routing-RIPv2%20%7C%20OSPF%20%7C%20EIGRP-1E90FF?style=flat-square)  
 ![](https://img.shields.io/badge/PPP-PAP%20%7C%20CHAP-FF8C00?style=flat-square)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=trandh16022005&show_icons=true&theme=radial&hide_border=true" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=trandh16022005&layout=compact&theme=radial&hide_border=true" alt="Top Languages" width="48%" />
 
 </div>
 
