@@ -59,21 +59,6 @@
 
 ---
 
-## 🌐 Networking Protocols & Concepts
-
-<div align="center">
-
-![](https://img.shields.io/badge/TCP/IP-00599C?style=flat-square)
-![](https://img.shields.io/badge/IPv4-008080?style=flat-square)
-![](https://img.shields.io/badge/Subnetting-4B0082?style=flat-square)
-![](https://img.shields.io/badge/VLSM-2E8B57?style=flat-square)  
-![](https://img.shields.io/badge/Routing-RIPv2%20%7C%20OSPF%20%7C%20EIGRP-1E90FF?style=flat-square)  
-![](https://img.shields.io/badge/PPP-PAP%20%7C%20CHAP-FF8C00?style=flat-square)
-
-</div>
-
----
-
 ## 🎯 Career Direction
 
 <div align="center">
